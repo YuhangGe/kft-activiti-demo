@@ -57,6 +57,8 @@ public class ProcessEngineTest extends SpringTransactionalTestCase {
 		assertNotNull(taskService);
 		assertNotNull(historyService);
 		assertNotNull(managementService);
+
+        System.out.println("hello test");
 	}
 
 }
